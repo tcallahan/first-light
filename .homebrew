@@ -1,0 +1,40 @@
+##########################
+# homebrew paths
+##########################
+export PATH="/usr/local/sbin:$PATH"
+
+# brew install coreutils
+export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
+
+# brew install findutils
+export PATH="/usr/local/opt/findutils/libexec/gnubin:$PATH"
+export MANPATH="/usr/local/opt/findutils/libexec/gnuman:$MANPATH"
+
+# brew install gnu-sed
+export PATH="/usr/local/opt/gnu-sed/libexec/gnubin:$PATH"
+export MANPATH="/usr/local/opt/gnu-sed/libexec/gnuman:$MANPATH"
+
+# brew install gnu-tar
+export PATH="/usr/local/opt/gnu-tar/libexec/gnubin:$PATH"
+export MANPATH="/usr/local/opt/gnu-tar/libexec/gnuman:$MANPATH"
+
+# brew install gnu-which
+# Had to manually create below directories and symbolic links
+# to use which instead of gwhich
+export PATH="/usr/local/opt/gnu-which/libexec/gnubin:$PATH"
+export MANPATH="/usr/local/opt/gnu-which/libexec/gnuman:$MANPATH"
+
+# brew install grep
+# Had to manually create below directories and symbolic links
+# to use grep,egrep,fgrep instead of prefixed versions
+export PATH="/usr/local/opt/grep/libexec/gnubin:$PATH"
+export MANPATH="/usr/local/opt/grep/libexec/gnuman:$MANPATH"
+
+#brew install gawk
+#brew install wget
+#brew install gzip
+#brew install wdiff
+#brew install vim
+#brew install macvim
+

@@ -3,10 +3,10 @@
 Someone told me that they wouldn't hire a software engineer / architect who didn't have a github account with "original" content.
 
 ## Contents
-This repo is for storing settings and configurations that I can share between the various systems that I work on.  I work primarily on Mac OS, spending most of my time in an IDE, Linux VM, or ssh'd into a remote host, hence the contents of this repo.
+This repo is for storing settings and configurations that I can share between the various systems that I work on.
 
 ### Homebrew
-coming soon...
+Source the .homebrew file into .bashrc when setting up a new mac, after having installed homebrew and run all the brew install commands listed.  These primarily give my Mac the same GNU command line tools as the Linux systems I use daily.
 
 ### vim
 coming soon...
